@@ -39,6 +39,18 @@ html {
 	border-radius: 15px;
 }
 
+#selected-card {
+	border: 2px solid #000;
+	border-radius: 20px;
+}
+
+#selected-card .card-header {
+	background-color: #202020;
+	color: #fff;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+
 #hamburger {
 	display: none;
 }
