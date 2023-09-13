@@ -129,7 +129,10 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<form method="post">
+						<form
+							action="https://formsubmit.co/86ce413cd09de9b9c211d94b266e3506"
+							method="post"
+						>
 							<div class="form-group">
 								<label for="name">Name</label>
 								<input
@@ -156,13 +159,18 @@
 								<label for="comments">Order Comments</label><br />
 								<textarea
 									id="comments"
-									name="message"
+									name="comments"
 									class="form-control"
 									rows="4"
 									cols="50"
 								></textarea>
 							</div>
-
+							<input
+								type="hidden"
+								name="_subject"
+								value="New Form Submission!"
+							/>
+							<input type="hidden" name="_template" value="table" />
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
